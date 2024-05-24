@@ -1,0 +1,110 @@
+.close-icon5,
+.mode-edit-icon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  opacity: 0.7;
+}
+.close-icon5 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mode-edit-parent {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 2px var(--padding-smi);
+  gap: 30px;
+}
+.frame-child24 {
+  width: 24px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-wheat);
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.friday-may-101,
+.uiux-class1 {
+  position: relative;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+}
+.uiux-class1 {
+  font-weight: 500;
+}
+.friday-may-101 {
+  font-size: var(--m3-body-medium-size);
+}
+.frame-parent14,
+.uiux-class-group {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+}
+.uiux-class-group {
+  width: 397px;
+  height: 51px;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.frame-parent14 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-xs);
+  gap: var(--gap-xs);
+}
+.location-on-icon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.location-on-parent {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs);
+  gap: var(--gap-xl);
+}
+.minutes-before {
+  position: relative;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+}
+.frame-parent15,
+.task-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--m3-body-medium-size);
+}
+.task-detail {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--white-white-100-high-emphasys);
+  border: 1px solid rgba(75, 75, 75, 0.2);
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: var(--padding-xs);
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--h6-size);
+  color: var(--color-black);
+  font-family: var(--m3-body-medium);
+}

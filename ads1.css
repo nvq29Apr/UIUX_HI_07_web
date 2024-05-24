@@ -1,0 +1,105 @@
+.ads1-child {
+  position: absolute;
+  top: calc(50% - 94px);
+  left: calc(50% - 333.35px);
+  width: 666.7px;
+  height: 188.1px;
+}
+.adidas-icon-colour {
+  position: absolute;
+  top: 17.1px;
+  left: 20.3px;
+  width: 42.7px;
+  height: 29.9px;
+}
+.ads1-item {
+  position: absolute;
+  top: calc(50% - 65.2px);
+  right: -0.1px;
+  width: 183.8px;
+  height: 174.2px;
+  object-fit: cover;
+}
+.elevate-your-tennis {
+  width: 182.7px;
+  position: relative;
+  font-size: var(--button-2-medium-15p-size);
+  text-transform: uppercase;
+  font-weight: 800;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.smash-the-competition {
+  font-weight: 600;
+}
+.discount {
+  font-weight: 900;
+}
+.smash-the-competition-container1 {
+  width: 100%;
+}
+.smash-the-competition-container {
+  align-self: stretch;
+  width: 114.3px;
+  position: relative;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.download-app {
+  position: relative;
+  font-weight: 600;
+}
+.download-app-wrapper {
+  border-radius: 4.27px;
+  background-color: var(--color-gold);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 6.4px var(--padding-2xs-7);
+  color: var(--color-black);
+}
+.elevate-your-tennis-game-today-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 17.1px;
+}
+.ads1-inner {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 248.95px);
+  width: 439.1px;
+  height: 66.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 12.8px var(--padding-2xs-7);
+  box-sizing: border-box;
+}
+.close-icon3 {
+  position: absolute;
+  top: -0.3px;
+  left: 650.9px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  opacity: 0.7;
+}
+.ads1 {
+  width: 100%;
+  position: relative;
+  box-shadow: 0 8.9px 31.12px rgba(0, 0, 0, 0.16);
+  background: linear-gradient(269.96deg, #010101, #000), #fff;
+  height: 66.2px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-4xs-5);
+  color: var(--white-white-100-high-emphasys);
+  font-family: var(--button-2-medium-15p);
+}

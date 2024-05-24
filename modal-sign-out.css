@@ -1,0 +1,234 @@
+.modal-child {
+  position: absolute;
+  top: 0;
+  left: 10.3px;
+  border-radius: 23.24px;
+  background-color: var(--white-white-100-high-emphasys);
+  width: 328px;
+  height: 295px;
+  transform: rotate(2deg);
+  transform-origin: 0 0;
+}
+.icon-bound {
+  position: absolute;
+  top: 4px;
+  left: calc(50% + 120px);
+  background-color: red;
+  width: 48px;
+  height: 48px;
+  opacity: 0;
+}
+.touch-feedback {
+  position: absolute;
+  height: calc(100% - 8px);
+  width: calc(100% - 16px);
+  top: 4px;
+  right: 8px;
+  bottom: 4px;
+  left: 8px;
+  border-radius: var(--br-5xs);
+}
+.surface-icon {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 11px);
+  right: 0;
+  left: 0;
+  border-radius: 39px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 22px;
+}
+.tint {
+  position: absolute;
+  top: calc(50% - 9px);
+  right: 2px;
+  box-shadow: 0 1px 4px rgba(0, 102, 255, 0.16);
+  border-radius: var(--br-31xl);
+  background-color: var(--white-white-100-high-emphasys);
+  width: 18px;
+  height: 18px;
+}
+.system-icons-knobs-on {
+  right: 0;
+  width: 36px;
+  height: 24px;
+}
+.knobs-on,
+.sign-out,
+.system-icons-knobs-on {
+  position: absolute;
+  top: calc(50% - 12px);
+}
+.knobs-on {
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.sign-out {
+  width: calc(100% - 48px);
+  left: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lists-pref-oneline-text {
+  width: 328px;
+  position: relative;
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: 19px;
+}
+.are-you-sure {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.are-you-sure-for-sign-out-wrapper {
+  width: 328px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-5xl);
+  box-sizing: border-box;
+  color: var(--black-black-54-mid-emphasys);
+}
+.ic-add-icon,
+.margin-left {
+  position: relative;
+  height: 24px;
+}
+.ic-add-icon {
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.margin-left {
+  width: 4px;
+}
+.left-icon {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.confirm {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.button-content,
+.text {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.text {
+  justify-content: flex-start;
+  padding: 0 4px;
+}
+.button-content {
+  justify-content: center;
+}
+.buttons-contained-positive,
+.rectangle {
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+}
+.buttons-contained-positive {
+  align-self: stretch;
+  background-color: var(--color-mediumslateblue-100);
+  height: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6px var(--padding-base);
+  cursor: pointer;
+}
+.rectangle {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid rgba(86, 103, 137, 0.26);
+}
+.cancel {
+  position: absolute;
+  width: calc(100% - 32px);
+  top: 9px;
+  left: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons-contained-enlighte {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.buttons-contained-neutral {
+  align-self: stretch;
+  position: relative;
+  height: 42px;
+  color: rgba(21, 24, 32, 0.5);
+}
+.body,
+.buttons-contained-positive-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.buttons-contained-positive-parent {
+  align-self: stretch;
+  padding: var(--padding-base) var(--padding-5xl) var(--padding-5xl);
+  gap: var(--gap-base);
+  color: var(--white-white-100-high-emphasys);
+  font-family: var(--font-work-sans);
+}
+.body {
+  position: absolute;
+  top: 4.9px;
+  left: 4px;
+  box-shadow: 0 11.6px 124.28px rgba(18, 45, 108, 0.17);
+  border-radius: 23.24px;
+  border: 2px solid var(--white-white-100-high-emphasys);
+  overflow: hidden;
+  padding: 11.6px 0 var(--padding-xs);
+}
+.modal,
+.modal-sign-out {
+  width: 338.1px;
+  height: 306.3px;
+}
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.modal-sign-out {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--m3-body-medium-size);
+  color: var(--color-black);
+  font-family: var(--font-public-sans);
+}

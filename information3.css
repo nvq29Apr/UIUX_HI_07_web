@@ -1,0 +1,28 @@
+.youre-almost-reach {
+  margin: 0;
+}
+.try-our-suggestion-task-below {
+  margin: 0;
+  color: #00ffec;
+}
+.more-class-today-container2 {
+  width: 70px;
+  position: relative;
+  display: inline-block;
+}
+.information3 {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mediumslateblue-300);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--white-white-100-high-emphasys);
+  font-family: var(--button-2-medium-15p);
+}
